@@ -68,3 +68,13 @@ describe('employees', function() {
     });
   });
 });
+
+
+
+beforeEach(() => {
+  employee = {
+    name: "Sam",
+    streetAddress: "12 Broadway"
+  };
+});
+
